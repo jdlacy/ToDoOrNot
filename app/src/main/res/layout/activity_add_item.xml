@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".AddItemActivity">
 
-<<<<<<< HEAD
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -48,62 +47,5 @@
             android:text="Cancel" />
     </LinearLayout>
 
-=======
-    <Button
-        android:id="@+id/cancel_button"
-        android:layout_width="202dp"
-        android:layout_height="75dp"
-        android:text="Cancel"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/save_button" />
-
-    <TextView
-        android:id="@+id/addText"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="Add A New ToDo Item"
-        android:textAlignment="center"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/addToDo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="148dp"
-        android:ems="10"
-        android:inputType="text"
-        android:text="New ToDo"
-        android:textAlignment="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addText" />
-
-    <Button
-        android:id="@+id/save_button"
-        android:layout_width="202dp"
-        android:layout_height="75dp"
-        android:layout_marginBottom="116dp"
-        android:text="Save"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/dateButton"
-        android:layout_width="225dp"
-        android:layout_height="101dp"
-        android:text="Pick A Date"
-        app:layout_constraintBottom_toTopOf="@+id/save_button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addToDo"
-        app:layout_constraintVertical_bias="0.369" />
->>>>>>> 87389aee57c334f5f1a948f740afe6cf9e0bee0a
 
 </androidx.constraintlayout.widget.ConstraintLayout>

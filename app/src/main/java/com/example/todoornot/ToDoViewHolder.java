@@ -9,13 +9,13 @@ import androidx.recyclerview.widget.RecyclerView;
 
 public class ToDoViewHolder extends RecyclerView.ViewHolder {
     public CheckBox checkBox;
-    public TextView dateText;
+    public TextView dateBox;
 
     public ToDoViewHolder(@NonNull View itemV) {
         super(itemV);
 
         checkBox = itemV.findViewById(R.id.checkBox);
-        dateText = itemV.findViewById(R.id.dateBox);
+        dateBox = itemV.findViewById(R.id.dateBox);
     }
 
 }

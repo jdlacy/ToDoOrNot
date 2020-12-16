@@ -38,7 +38,8 @@ public class ToDoAdapter extends RecyclerView.Adapter<ToDoViewHolder> {
 
         ToDoItem newItem = toDoItems.get(position);
         viewH.checkBox.setChecked(newItem.isChecked());
-        viewH.dateText.setText(newItem.getDate());
+        viewH.checkBox.setText(newItem.getItem());
+        viewH.dateBox.setText(newItem.getDate());
 
         viewH.checkBox.setOnCheckedChangeListener((v, checked)->{
             dBhelper.checkComplete(toDoItems.get(viewH.getAdapterPosition()).getID(),checked);

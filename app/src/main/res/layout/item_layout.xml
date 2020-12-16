@@ -16,36 +16,22 @@
 
         <CheckBox
             android:id="@+id/checkBox"
-<<<<<<< HEAD
-            android:layout_width="99dp"
-=======
-            android:layout_width="0dp"
->>>>>>> 87389aee57c334f5f1a948f740afe6cf9e0bee0a
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="" />
-
-        <TextView
-<<<<<<< HEAD
-=======
-            android:id="@+id/toDoBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="TextView" />
+            android:text=""
+            android:layout_marginRight="35dp"
+            android:textAlignment="textStart"
+            android:textSize="14sp" />
 
         <TextView
->>>>>>> 87389aee57c334f5f1a948f740afe6cf9e0bee0a
             android:id="@+id/dateBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Date Box"
-<<<<<<< HEAD
-            android:textAlignment="textEnd" />
-=======
-            android:textAlignment="center" />
->>>>>>> 87389aee57c334f5f1a948f740afe6cf9e0bee0a
+            android:textAlignment="textEnd"
+            android:textSize="18sp" />
 
 
 

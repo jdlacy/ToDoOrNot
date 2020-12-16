@@ -18,9 +18,7 @@ public class ToDoItem {
     }
     public String getItem() {return text;}
 
-    public String getDate() {return text;}
-
-    public void setText(String date) {this.date = date;}
+    public String getDate() {return date;}
 
     public boolean isChecked() {return checkedOn;}
 
